@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{box-sizing: border-box;}
+    body{
+      background-color: yellow;
+    }
+    section{
+      border: 1px solid #000; width: 90%;
+      height: 200px; margin: 3rem auto; 
+      display: flex; justify-content: space-between; 
+
+    }
+    section div{
+      width: 30%; 
+      height: 100%;
+      background-color: yellowgreen;
+      border: 5px solid #ff0000;
+    }
+    div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 3rem; overflow: hidden;
+    }
+    @media screen and (max-width: 768px) {
+      section{flex-wrap: wrap; justify-content: center;}
+      section div{
+        width: 80%;
+        
+      }
+    }
+    .section02>div:nth-child(3){
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <div>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel asperiores optio eos ipsam culpa consequatur explicabo aspernatur maiores a nemo qui suscipit ad quia, ab odio, laborum et. Incidunt, eaque.
+    </div>
+    <div>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel asperiores optio eos ipsam culpa consequatur explicabo aspernatur maiores a nemo qui suscipit ad quia, ab odio, laborum et. Incidunt, eaque.
+    </div>
+    <div>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel asperiores optio eos ipsam culpa consequatur explicabo aspernatur maiores a nemo qui suscipit ad quia, ab odio, laborum et. Incidunt, eaque.
+    </div>
+  </section>
+  <section class="section02">
+    <div>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel asperiores optio eos ipsam culpa consequatur explicabo aspernatur maiores a nemo qui suscipit ad quia, ab odio, laborum et. Incidunt, eaque.
+    </div>
+    <div>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel asperiores optio eos ipsam culpa consequatur explicabo aspernatur maiores a nemo qui suscipit ad quia, ab odio, laborum et. Incidunt, eaque.
+    </div>
+    <div>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel asperiores optio eos ipsam culpa consequatur explicabo aspernatur maiores a nemo qui suscipit ad quia, ab odio, laborum et. Incidunt, eaque.
+    </div>
+  </section>
+  <section>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora error quia quam reprehenderit voluptatibus molestias beatae fugit delectus, mollitia officiis nesciunt ea corrupti ipsum accusamus ex sunt architecto itaque magni!</div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora error quia quam reprehenderit voluptatibus molestias beatae fugit delectus, mollitia officiis nesciunt ea corrupti ipsum accusamus ex sunt architecto itaque magni!</div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora error quia quam reprehenderit voluptatibus molestias beatae fugit delectus, mollitia officiis nesciunt ea corrupti ipsum accusamus ex sunt architecto itaque magni!</div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora error quia quam reprehenderit voluptatibus molestias beatae fugit delectus, mollitia officiis nesciunt ea corrupti ipsum accusamus ex sunt architecto itaque magni!</div>
+  </section>
+</body>
+</html>
